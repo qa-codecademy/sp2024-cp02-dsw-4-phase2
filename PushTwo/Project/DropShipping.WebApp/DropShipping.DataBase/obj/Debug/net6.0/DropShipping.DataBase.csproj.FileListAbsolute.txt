@@ -1,0 +1,5 @@
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.AssemblyInfo.cs
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.csproj.CoreCompileInputs.cache
