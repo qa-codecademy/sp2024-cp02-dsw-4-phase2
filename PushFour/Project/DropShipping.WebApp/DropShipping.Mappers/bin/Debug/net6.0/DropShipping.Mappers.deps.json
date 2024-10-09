@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DropShipping.Mappers/1.0.0": {
+        "dependencies": {
+          "DropShipping.Domain": "1.0.0",
+          "DropShipping.Dto": "1.0.0"
+        },
+        "runtime": {
+          "DropShipping.Mappers.dll": {}
+        }
+      },
+      "DropShipping.Domain/1.0.0": {
+        "runtime": {
+          "DropShipping.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DropShipping.Dto/1.0.0": {
+        "runtime": {
+          "DropShipping.Dto.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DropShipping.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DropShipping.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DropShipping.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DropShipping.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DropShipping.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DropShipping.Domain.dll": {}
+        }
+      },
+      "DropShipping.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DropShipping.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DropShipping.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DropShipping.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DropShipping.Domain/DropShipping.Domain.csproj",
+      "msbuildProject": "../DropShipping.Domain/DropShipping.Domain.csproj"
+    },
+    "DropShipping.Dto/1.0.0": {
+      "type": "project",
+      "path": "../DropShipping.Dto/DropShipping.Dto.csproj",
+      "msbuildProject": "../DropShipping.Dto/DropShipping.Dto.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DropShipping.Domain >= 1.0.0",
+      "DropShipping.Dto >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\justi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj",
+      "projectName": "DropShipping.Mappers",
+      "projectPath": "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\DropShipping.Mappers.csproj",
+      "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Mappers\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Domain\\DropShipping.Domain.csproj"
+            },
+            "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj": {
+              "projectPath": "C:\\Users\\justi\\Desktop\\Project\\DropShipping.WebApp\\DropShipping.Dto\\DropShipping.Dto.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

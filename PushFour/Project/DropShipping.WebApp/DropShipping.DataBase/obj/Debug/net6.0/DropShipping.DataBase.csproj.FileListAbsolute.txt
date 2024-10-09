@@ -1,0 +1,17 @@
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.DataBase.deps.json
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.DataBase.runtimeconfig.json
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.DataBase.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.DataBase.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.Domain.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\bin\Debug\net6.0\DropShipping.Domain.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.AssemblyInfo.cs
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShip.215F3BEE.Up2Date
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\refint\DropShipping.DataBase.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\DropShipping.DataBase.genruntimeconfig.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.DataBase\obj\Debug\net6.0\ref\DropShipping.DataBase.dll

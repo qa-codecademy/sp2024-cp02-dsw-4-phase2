@@ -1,0 +1,11 @@
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\bin\Debug\net6.0\DropShipping.Dto.deps.json
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\bin\Debug\net6.0\DropShipping.Dto.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\bin\Debug\net6.0\DropShipping.Dto.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.AssemblyInfo.cs
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\refint\DropShipping.Dto.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\DropShipping.Dto.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Dto\obj\Debug\net6.0\ref\DropShipping.Dto.dll

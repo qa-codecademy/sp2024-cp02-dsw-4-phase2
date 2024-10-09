@@ -1,0 +1,17 @@
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.AssemblyInfo.cs
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Mappers.deps.json
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Mappers.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Mappers.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Domain.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Dto.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Domain.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\bin\Debug\net6.0\DropShipping.Dto.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShip.1B6C267B.Up2Date
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\refint\DropShipping.Mappers.dll
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\DropShipping.Mappers.pdb
+C:\Users\justi\Desktop\Project\DropShipping.WebApp\DropShipping.Mappers\obj\Debug\net6.0\ref\DropShipping.Mappers.dll

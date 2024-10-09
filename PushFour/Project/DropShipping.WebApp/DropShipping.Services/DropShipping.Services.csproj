@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="XAct.Core.PCL" Version="0.0.5014" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DropShipping.DataBase\DropShipping.DataBase.csproj" />
+		<ProjectReference Include="..\DropShipping.Dto\DropShipping.Dto.csproj" />
+		<ProjectReference Include="..\DropShipping.Mappers\DropShipping.Mappers.csproj" />
+		<ProjectReference Include="..\DropShipping.Shared\DropShipping.Shared.csproj" />
+	</ItemGroup>
+
+</Project>
