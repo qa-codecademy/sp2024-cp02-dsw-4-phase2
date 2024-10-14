@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.services\\implementations\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\implementations\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.services\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\interfaces\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8639DC3-82A0-4B8F-AB65-3E8B45970B8C}|DropShipping.Shared\\DropShipping.Shared.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.shared\\configuration\\droppshippingappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8639DC3-82A0-4B8F-AB65-3E8B45970B8C}|DropShipping.Shared\\DropShipping.Shared.csproj|solutionrelative:dropshipping.shared\\configuration\\droppshippingappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|solutionrelative:dropshipping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DroppshippingAppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Shared\\Configuration\\DroppshippingAppSettings.cs",
+              "RelativeDocumentMoniker": "DropShipping.Shared\\Configuration\\DroppshippingAppSettings.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Shared\\Configuration\\DroppshippingAppSettings.cs",
+              "RelativeToolTip": "DropShipping.Shared\\Configuration\\DroppshippingAppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T22:56:06.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping\\appsettings.json",
+              "RelativeDocumentMoniker": "DropShipping\\appsettings.json",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping\\appsettings.json",
+              "RelativeToolTip": "DropShipping\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-12T21:53:38.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\ContactService.cs",
+              "RelativeDocumentMoniker": "DropShipping.Services\\Implementations\\ContactService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\ContactService.cs",
+              "RelativeToolTip": "DropShipping.Services\\Implementations\\ContactService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T06:25:11.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Interfaces\\IContactService.cs",
+              "RelativeDocumentMoniker": "DropShipping.Services\\Interfaces\\IContactService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Interfaces\\IContactService.cs",
+              "RelativeToolTip": "DropShipping.Services\\Interfaces\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T05:01:53.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
