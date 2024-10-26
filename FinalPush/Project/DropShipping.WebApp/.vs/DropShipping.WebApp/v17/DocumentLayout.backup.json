@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A5DFB5-7C58-4A47-91A4-D10A7BF1D309}|DropShipping.Services\\DropShipping.Services.csproj|solutionrelative:dropshipping.services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56DC0A29-EC9A-4F63-A96B-AAA4F914353E}|DropShipping.Dto\\DropShipping.Dto.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.dto\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56DC0A29-EC9A-4F63-A96B-AAA4F914353E}|DropShipping.Dto\\DropShipping.Dto.csproj|solutionrelative:dropshipping.dto\\userdtos\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2903E2E1-AB72-4764-8879-CFFFA8306BC0}|DropShipping\\DropShipping.csproj|solutionrelative:dropshipping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF7D1167-7451-4DC4-A6B2-3891F18FD59D}|DropShipping.Helpers\\DropShipping.Helpers.csproj|c:\\users\\justi\\desktop\\welinkproject\\project\\dropshipping.webapp\\dropshipping.helpers\\configurationshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF7D1167-7451-4DC4-A6B2-3891F18FD59D}|DropShipping.Helpers\\DropShipping.Helpers.csproj|solutionrelative:dropshipping.helpers\\configurationshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "DropShipping.Services\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "DropShipping.Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawCMAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T16:01:22.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogInUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Dto\\UserDtos\\LogInUserDto.cs",
+              "RelativeDocumentMoniker": "DropShipping.Dto\\UserDtos\\LogInUserDto.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Dto\\UserDtos\\LogInUserDto.cs",
+              "RelativeToolTip": "DropShipping.Dto\\UserDtos\\LogInUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T15:58:55.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping\\Program.cs",
+              "RelativeDocumentMoniker": "DropShipping\\Program.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping\\Program.cs",
+              "RelativeToolTip": "DropShipping\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:30:09.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigurationsHelper.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Helpers\\ConfigurationsHelper.cs",
+              "RelativeDocumentMoniker": "DropShipping.Helpers\\ConfigurationsHelper.cs",
+              "ToolTip": "C:\\Users\\justi\\Desktop\\weLinkProject\\Project\\DropShipping.WebApp\\DropShipping.Helpers\\ConfigurationsHelper.cs",
+              "RelativeToolTip": "DropShipping.Helpers\\ConfigurationsHelper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:30:02.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

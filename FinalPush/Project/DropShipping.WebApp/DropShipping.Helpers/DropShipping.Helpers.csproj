@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.33" />
+		<PackageReference Include="Serilog.Sinks.MSSqlServer" Version="6.7.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\DropShipping.DataBase\DropShipping.DataBase.csproj" />
+		<ProjectReference Include="..\DropShipping.Dto\DropShipping.Dto.csproj" />
+		<!--<ProjectReference Include="..\DropShipping.Services\DropShipping.Services.csproj" />-->
+		<ProjectReference Include="..\DropShipping.Services\DropShipping.Services.csproj" />
+
+	</ItemGroup>
+
+</Project>
