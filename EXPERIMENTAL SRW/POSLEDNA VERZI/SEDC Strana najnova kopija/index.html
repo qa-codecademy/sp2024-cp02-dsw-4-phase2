@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Shop</title>
+    <link rel="icon" type="image/x-icon" href="/assets/Swift-Logo-500x313.png">
+    <!-------------------------------------------- NAV BAR CSS ----------------------------------------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="../src/search-nav.css"> -->
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------ HOME PAGE CSS ----------------------------------------->
+    <link rel="stylesheet" href="../src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------- LOG IN / REGISTER CSS ------------------------------------>
+    <link rel="stylesheet" href="../src/log-reg.css">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------- CONTACT PAGE CSS ------------------------------------->
+    <link rel="stylesheet" href="../src/contact.css">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------- SALES PAGE CSS ----------------------------------------->
+    <link rel="stylesheet" href="../src/salespage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------- CART PAGE CSS --------------------------------------->
+    <link rel="stylesheet" href="../src/cart.css">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!----------------------------------------- MORE DETAILS CSS --------------------------------------->
+    <link rel="stylesheet" href="../src/moredetails.css">
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!------------------------------------------- FOOTER CSS ------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <!-- Google Fonts Muli -->
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="../src/footer.css"> -->
+    <!-------------------------------------------------------------------------------------------------->
+
+    <!---------------------------------------------- PROFILE CSS --------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-------------------------------------------------------------------------------------------------->
+</head>
+
+<body>
+
+    <!-------------------------------------------- NAV BAR -------------------------------------->
+
+    <div class="navbar-inverse">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">Swift Shop</a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="mobile_menu">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#" id="home-link">Home</a></li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="category-toggle" role="button"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu" id="category-menu" aria-labelledby="category-toggle">
+                                </ul>
+                            </li> -->
+                            <li><a href="#" id="sale-product-link">Sale Product</a></li>
+                            <li><a href="#" id="contact-us">Contact us</a></li>
+                            <!-- <div class="container search-nav">
+                                <div class="row height d-flex justify-content-center align-items-center">
+                                    <div class="col-md-6">
+                                        <div class="form">
+                                            <input type="text" class="form-control form-input"
+                                                placeholder="Search anything...">
+                                            <button class="form-button">Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <!-- <li id="cart-link">
+                            <a href="#" id="cart-link-a">
+                                <span class="glyphicon glyphicon-shopping-cart" id="hidden-cart"></span>Cart
+                                <span id="cart-count" class="badge hidden">0</span>
+                            </a>
+                        </li> -->
+                            <li id="cart-link">
+                                <a href="#/cart" id="cart-link-a" onclick="showOrders()">
+                                    <span class="glyphicon glyphicon-shopping-cart" id="hidden-cart"></span>Cart
+                                    <span id="cart-count" class="badge hidden">0</span>
+                                </a>
+                            </li>
+                            <li id="profile-link" class="">
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </a>
+                            </li>
+                            <li id="login-signup-link" class="dropdown2">
+                                <a href="#">
+                                    <span class="glyphicon glyphicon-log-in"></span> Login / Sign Up
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="profile-show back-color" style="display: none;"> <!-- Start as hidden -->
+        <div class="wrapper">
+            <h1>Account Settings</h1>
+            <ul class="mainMenu">
+                <li class="item" id="logout-btn">
+                    <button id="Logout-Profile" class="btn-profile fas fa-sign-out-alt">Log Out</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-------------------------------------------- SALES PAGE ----------------------------------->
+
+    <div id="bcground" class="bcground">
+        <div class="mainsale">
+            <h1 id="productmain">🔥​ PRODUCTS ON SALE ​🔥</h1>
+            <br>
+            <div>
+                <p class="text-center theTime">EXPIRY TIME</p>
+                <div id="timerCounter">
+                    <section class="countdown-timer">
+
+                        <div class="countdown-info">
+                            <div class="timer-box">
+                                <div id="flip-sheet-day" class="sheet"></div>
+                                <div class="circle-left"></div>
+                                <p id="days" class="primary">00</p>
+                                <div class="circle-right"></div>
+                            </div>
+
+                            <p class="sub-heading timerFont">DAYS</p>
+                        </div>
+
+                        <div class="countdown-info">
+                            <div class="timer-box">
+                                <div id="flip-sheet-hour" class="sheet"></div>
+                                <div class="circle-left"></div>
+                                <p id="hours" class="primary">00</p>
+                                <div class="circle-right"></div>
+                            </div>
+                            <p class="sub-heading timerFont">HOURS</p>
+                        </div>
+
+                        <div class="countdown-info">
+                            <div class="timer-box">
+                                <div id="flip-sheet-min" class="sheet"></div>
+                                <div class="circle-left"></div>
+                                <p id="minutes" class="primary">00</p>
+                                <div class="circle-right"></div>
+                            </div>
+                            <p class="sub-heading timerFont">MINUTES</p>
+                        </div>
+
+                        <div class="countdown-info">
+                            <div class="timer-box">
+                                <div id="flip-sheet-sec" class="sheet"></div>
+                                <div class="circle-left"></div>
+                                <p id="seconds" class="primary">00</p>
+                                <div class="circle-right"></div>
+                            </div>
+                            <p class="sub-heading timerFont">SECONDS</p>
+                        </div>
+
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-sale" id="sale-hidden">
+            <div class="row" id="slider-text">
+                <div class="col-md-3">
+                    <h2 data-category="kitchen">Kitchen</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="toys">Toys</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="gardening">Gardening Tools</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="electronics">Electronics and Gadgets</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="fashion">Fashion and Apparel</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="health">Health and Wellness</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="pet">Pet Supplies</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="security">Security Systems</h2>
+                </div>
+                <div class="col-md-3">
+                    <h2 data-category="jewellery">Jewellery</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="sales-products">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="carousel-container">
+                        <br>
+                        <br>
+                        <br>
+                        <h1 class="category-header" id="category-title"></h1>
+                        <br>
+                        <br>
+                        <div class="carousel" id="products">
+                            <!----------------Овде се продуктите прикажани------------------->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------------------- HOME PAGE ------------------------------------>
+    <div class="homepagehidden">
+        <div id="carouselContainer" class="position-relative" style="width: 100%; height: 700px;">
+            <div class="quote">Home is not a place, it's a feeling</div>
+            <img src="templates/img/home.png" class="d-block w-100 picture" alt="...">
+            <div>
+                <h2 class="Categorytitle"></h2>
+            </div>
+            <!-- <a href="#Categories"><button class="homeBtn">Explore your interests</button></a>  -->
+        </div>
+
+        <!--========================================== CARD CATEGORIES (Home Page)==========================================-->
+
+        <div class="category-section">
+            <section class="backgroundColor pt-5 pb-5 shadow-sm">
+                <div>
+                    <h2 id="Categories" class="CategoriesTitle pt-3 pb-5 linear">Categories</h2>
+                </div>
+
+                <div class="container">
+                    <div class="row" id="category-container">
+                        <!-- Categories will be dynamically loaded here -->
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!--------------------------------------- LOG IN / REGISTER --------------------------------->
+    <div class="log-reg-hidden" id="login-signup-form" style="display: none;">
+        <div class="login-after-log">
+            <form id="login-form" class="hidden">
+                <h1>Login</h1>
+                <div class="form-group">
+                    <input required="required" class="form-control" id="login-email" autocomplete="off"
+                        placeholder="Email" />
+                    <br>
+                    <input id="password" type="password" required="required" class="form-control"
+                        placeholder="Password" />
+                </div>
+                <div class="form-group">
+                    <button type="button" id="login-btn" class="btn">Login</button>
+                    <button type="button" id="switch-to-sign-up-btn" class="btn secondary-btn">Sign Up</button>
+                    <p class="alert" style="display: none;">Invalid Credentials..!!</p>
+                </div>
+            </form>
+
+            <form id="sign-up-form" class="hidden">
+                <h1>Sign Up</h1>
+                <div class="form-group">
+                    <input required class="form-control" id="first-name" placeholder="First Name">
+                    <br>
+                    <input required class="form-control" id="last-name" placeholder="Last Name">
+                    <br>
+                    <input required class="form-control" id="username" placeholder="Username">
+                    <br>
+                    <input required type="password" class="form-control" id="sign-up-password" placeholder="Password">
+                    <br>
+                    <input required type="password" class="form-control" id="confirmed-password"
+                        placeholder="Confirm Password">
+                    <br>
+                    <input required class="form-control" id="email" placeholder="Email">
+                    <br>
+                    <input required class="form-control" id="phone-number" placeholder="Phone Number">
+                    <br>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Sign Up</button>
+                    <button type="button" id="back-to-login-btn" class="btn secondary-btn">Back to Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------------------- CONTACT PAGE --------------------------------->
+
+    <div class="contact-hidden" id="contactHidden">
+        <div class="wrapper">
+            <div class="title">
+                <h1>Contact Us Form</h1>
+            </div>
+            <div class="contact-form">
+                <div class="input-fields">
+                    <input type="text" id="email-contact" class="input" placeholder="Email Address" required>
+                </div>
+                <div class="msg">
+                    <textarea id="message" placeholder="Message" required></textarea>
+                    <button id="send" class="btn">Send</button>
+                </div>
+                <div id="response-message" class="response-message"></div> <!-- Element to display response messages -->
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------->
+
+
+    <!-------------------------------------------- CART PAGE WORKING------------------------------------>
+    <!-- <div class="cart-container">
+    <h1>Your Shopping Cart</h1>
+    <hr class="custom-hr">
+
+    <div class="cart-content">
+        <div class="cart-items-container">
+            <div id="empty-cart-message" class="hidden">Your cart is currently empty.</div>
+            <div class="cart-items"> -->
+    <!-- Овде се прикажувааѕ продуктите што се додаваат во кошница -->
+    <!-- </div>
+        </div>
+
+        <div class="cart-summary-container">
+            <div class="cart-summary">
+                <h2>Cart Summary</h2>
+                <div class="summary-item">
+                    <p>Subtotal: <span id="subtotal">.00</span> EUR</p>
+                    <p>Estimated Shipping: Free</p>
+                    <hr>
+                    <h3>Total: <span id="total">.00</span> EUR</h3>
+                    <button class="truck-button">
+                        <span class="default">Complete Order</span>
+                        <span class="success">
+                            Order Placed
+                            <svg viewBox="0 0 12 10">
+                                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                            </svg>
+                        </span>
+                        <div class="truck">
+                            <div class="wheel"></div>
+                            <div class="back"></div>
+                            <div class="front"></div>
+                            <div class="box"></div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+    <!-- ================================================= EXPERIMENTS FOR CART ================================================== -->
+    <div class="cart-container">
+        <h1>Your Shopping Cart</h1>
+        <hr class="custom-hr">
+
+        <div class="cart-content">
+            <div class="cart-items-container">
+                <div id="empty-cart-message" class="hidden">Your cart is currently empty.</div>
+                <div class="cart-items" id="cart-items">
+                    <!-- Products will be displayed here -->
+                </div>
+            </div>
+
+            <div class="cart-summary-container">
+                <div class="cart-summary">
+                    <h2>Cart Summary</h2>
+                    <div class="summary-item">
+                        <p>Subtotal: <span id="subtotal">.00</span> EUR</p>
+                        <p>Estimated Shipping: Free</p>
+                        <hr>
+                        <h3>Total: <span id="total">.00</span> EUR</h3>
+                        <button class="truck-button" id="complete-order">
+                            <span onclick="placeOrder()" class="default">Complete Order</span>
+                            <span class="success" style="display:none;">
+                                Order Placed
+                                <svg viewBox="0 0 12 10">
+                                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                                </svg>
+                            </span>
+                            <div class="truck">
+                                <div class="wheel"></div>
+                                <div class="back"></div>
+                                <div class="front"></div>
+                                <div class="box"></div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------------------- MORE DETAILS --------------------------------->
+
+    <div class="container-moredetails " style="display: none;">
+        <div class="wrapper-details">
+            <div class="card-details">
+                <div class="product-left">
+                    <div class="header">
+                        <h1 id="product-name">Product Name</h1>
+                        <hr>
+                        <div class="reviews">
+                            <h5>Write review</h5>
+                            <span class="stars" data-rating="0">
+                                <span class="star" id="star1" data-value="1">★</span>
+                                <span class="star" id="star2" data-value="2">★</span>
+                                <span class="star" id="star3" data-value="3">★</span>
+                                <span class="star" id="star4" data-value="4">★</span>
+                                <span class="star" id="star5" data-value="5">★</span>
+                            </span>
+                        </div>
+                        <div class="review-form" style="display: none;">
+                            <textarea id="review-text" placeholder="Write your review here..."></textarea>
+                            <button id="submit-review">Submit</button>
+                        </div>
+                        <div class="review-success" style="display: none;">Review submitted successfully!</div>
+                        <div class="login-alert" style="display: none; color: red;">You must be logged in to submit a
+                            review.</div>
+                        <br>
+                    </div>
+                    <div class="product-details">
+                        <div class="product-total">
+                            <h3>Total Price</h3>
+                            <p id="product-price"></p>
+                        </div>
+                    </div>
+                    <div class="product-main">
+                        <div class="focus">
+                            <span>Description</span>
+                        </div>
+                        <p id="product-description"></p>
+                    </div>
+                    <div class="product-btns">
+                        <button class="product-add" data-product-id="">Add to Cart</button>
+                        <button class="all-reviews" data-id="">All Reviews</button>
+                        <button class="back-home">Back to home</button>
+                    </div>
+                </div>
+                <div class="product-right">
+                    <img id="product-image" src="" alt="">
+                </div>
+            </div>
+            <div class="all-reviews-container" style="display: none;">
+                <div class="reviews-list">
+                    <!-- Овде ќе се прикажат рецензиите -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------------------------------------------------------------------------------------->
+    <div id="scroll-to-top">
+        ↑
+    </div>
+    <!------------------------------------------------ FOOTER ----------------------------------->
+
+    <footer class="footer">
+        <div class="bubbles"></div>
+        <div class="footer-content">
+            <div class="about-logo">
+                <img src="/assets/Swift-Logo-500x313.png" alt="Your Logo">
+            </div>
+            <div class="footer-section about">
+                <h1>About Us</h1>
+                <p>At <strong>Swift Shop</strong>, we believe in providing a seamless and delightful shopping
+                    experience for our customers around the globe. Since our inception in <strong>2023</strong>, we have
+                    been committed
+                    to bringing you the latest and most innovative products from trusted suppliers, ensuring quality and
+                    satisfaction with every purchase.</p>
+            </div>
+            <!-- <div class="footer-section links">
+                <h1>Quick Links</h1>
+                <ul>
+                    <li><a href="#" id="footer-home">Home</a></li>
+                    <li><a href="#" id="footer-sale">Sale</a></li>
+                    <li><a href="#" id="footer-contact">Contact</a></li>
+                </ul>
+            </div> -->
+            <div class="footer-section links">
+                <h4>Stay in the Loop: Join our community to receive exclusive offers, latest product updates, and the
+                    best deals right in your inbox. We promise not to spam, only send you the best stuff!</h4>
+            </div>
+    </footer>
+    <svg style="position: fixed; top: 100vh;">
+        <defs>
+            <filter id="blob">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                    result="blob" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!------------------------------------------------------------------------------------------->
+
+
+
+
+    <!-------------------------------- CART PAGE SCRIPT ----------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="../src/cart.js"></script>
+    <!------------------------------------------------------------------------------------------->
+
+    <!----------------------------- MORE DETAILS SCRIPT ----------------------------------------->
+    <script src="../src/moredetails.js"></script>
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------- FOOTER SCRIPT ----------------------------------------=--->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="../src/footer.js"></script>
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------- NAV BAR SCRIPT ------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../src/fetchCategories.js"></script>
+
+    <!------------------------------------------------------------------------------------------->
+
+    <!--  ========================================================================================= -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script> -->
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------- HOME PAGE SCRIPT ----------------------------------------->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <script src="../src/script.js"></script>
+    <script type="text/javascript" src="../src/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".tilt"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+    <!------------------------------------------------------------------------------------------->
+
+    <!----------------------------- LOG IN REGISTER SCRIPT -------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../src/log-reg.js"></script>
+    <!------------------------------------------------------------------------------------------->
+
+    <!-------------------------------- CONTACT SCRIPT ------------------------------------------->
+    <script src="../src/contact.js"></script>
+    <!------------------------------------------------------------------------------------------->
+    <script src="../products.json"></script>
+    <!-------------------------------- SALES PAGE SCRIPT ---------------------------------------->
+    <script src="../src/salespage.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!------------------------------------------------------------------------------------------->
+
+</body>
+
+</html>
